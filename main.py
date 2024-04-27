@@ -37,16 +37,6 @@ def successful():
 	f.close()
 	return page
 
-
-#No need of it
-#@app.route("/viewdata")
-#def viewdata():
-#f = open("savedFile.txt", "r")
-#data = f.read()
-#f.close()
-#return data
-
-
 @app.route('/')
 def index():
 	page = ""
