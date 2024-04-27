@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="/static/style.css" rel="stylesheet" type="text/css" />
+  <title>Lead Form Edelwiss Tokio</title>
+</head>
+
+<body>
+  
+  <script src="/static/script.js"></script>
+  <!--<script src="{{ url_for('static', filename='script.js') }}"></script> -->
+  <img src="/static/images/logo.png" alt="logo">
+
+  <b>Enter your details and let me help you achieve your Financial goals this Year!</b>
+  <form method="post" action="/process">
+
+    <p>Name: <input type="text" id="name" name="Name" placeholder="Enter your name" required></p>
+    <p>Phone:<input type="tel" name="Phone No." placeholder="Enter your Phone No" required></p>
+    <div class="center">
+      <div class="vertical-center">
+        <button type="submit" onclick="location.href='/process'">Submit</button>
+      </div>
+    </div>
+  </form>
+
+  <form>
+    <div class="Photo">
+      <img src="/static/images/PassportSizePhoto.jpg" alt="Development Manager" width="200" height="200">
+    </div>
+  </form>
+	<b>Tariq Israr Ansari</b>
+	<b>(Development Manager)</b>
+	<b>Nagpur Dharampeth Branch</b>
+	<b>Contact No. 9823083123</b>
+	<p>© 2023 Arhan<br></p>
+</body>
+</html>

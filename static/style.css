@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.container {
+  height: 200px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 150;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  border: 3px solid skyblue;
+}
+
+.photo{
+  padding-left:30px;
+  width: 250px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid skyblue;
+}
+
+/static/images/img {
+  padding-left:1100px;
+  width: 20px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+	text-align: center;
+	color:darkblue;
+}
+
+b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: darkblue;
+  height: 50px;
+  border: 1px solid skyblue;
+}
